@@ -1,0 +1,22 @@
+[{
+  "camera": "FHAZ",
+  "rover1": "Curiosity",
+  "rover2": "Opportunity",
+  "rover3": "Spirit",
+  "key" : "3URwAWOHjeJxgDD6Dt94WfSXs3chWqfNHBb9aBp4"
+},
+  {
+    "camera": "RHAZ",
+    "rover1": "Curiosity",
+    "rover2": "Opportunity",
+    "rover3": "Spirit",
+    "key" : "3URwAWOHjeJxgDD6Dt94WfSXs3chWqfNHBb9aBp4"
+  },
+  {
+    "camera": "NAVCAM",
+    "rover1": "Curiosity",
+    "rover2": "Opportunity",
+    "rover3": "Spirit",
+    "key" : "3URwAWOHjeJxgDD6Dt94WfSXs3chWqfNHBb9aBp4"
+  }
+]

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="challenge.tests.TestRunner" time="56.548" tests="6" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Ariel Costa\Documents\Repos\APICHALLENGE\target\test-classes;C:\Users\Ariel Costa\Documents\Repos\APICHALLENGE\target\classes;C:\Users\Ariel Costa\.m2\repository\com\intuit\karate\karate-junit5\1.2.0\karate-junit5-1.2.0.jar;C:\Users\Ariel Costa\.m2\repository\com\intuit\karate\karate-core\1.2.0\karate-core-1.2.0.jar;C:\Users\Ariel Costa\.m2\repository\org\graalvm\js\js-scriptengine\21.2.0\js-scriptengine-21.2.0.jar;C:\Users\Ariel Costa\.m2\repository\org\graalvm\sdk\graal-sdk\21.2.0\graal-sdk-21.2.0.jar;C:\Users\Ariel Costa\.m2\repository\org\graalvm\js\js\21.2.0\js-21.2.0.jar;C:\Users\Ariel Costa\.m2\repository\org\graalvm\regex\regex\21.2.0\regex-21.2.0.jar;C:\Users\Ariel Costa\.m2\repository\org\graalvm\truffle\truffle-api\21.2.0\truffle-api-21.2.0.jar;C:\Users\Ariel Costa\.m2\repository\com\ibm\icu\icu4j\69.1\icu4j-69.1.jar;C:\Users\Ariel Costa\.m2\repository\org\thymeleaf\thymeleaf\3.0.14.RELEASE\thymeleaf-3.0.14.RELEASE.jar;C:\Users\Ariel Costa\.m2\repository\ognl\ognl\3.1.26\ognl-3.1.26.jar;C:\Users\Ariel Costa\.m2\repository\org\javassist\javassist\3.20.0-GA\javassist-3.20.0-GA.jar;C:\Users\Ariel Costa\.m2\repository\org\attoparser\attoparser\2.0.5.RELEASE\attoparser-2.0.5.RELEASE.jar;C:\Users\Ariel Costa\.m2\repository\org\unbescape\unbescape\1.1.6.RELEASE\unbescape-1.1.6.RELEASE.jar;C:\Users\Ariel Costa\.m2\repository\com\linecorp\armeria\armeria\1.13.4\armeria-1.13.4.jar;C:\Users\Ariel Costa\.m2\repository\io\micrometer\micrometer-core\1.7.6\micrometer-core-1.7.6.jar;C:\Users\Ariel Costa\.m2\repository\org\hdrhistogram\HdrHistogram\2.1.12\HdrHistogram-2.1.12.jar;C:\Users\Ariel Costa\.m2\repository\org\latencyutils\LatencyUtils\2.0.3\LatencyUtils-2.0.3.jar;C:\Users\Ariel Costa\.m2\repository\io\netty\netty-transport\4.1.70.Final\netty-transport-4.1.70.Final.jar;C:\Users\Ariel Costa\.m2\repository\io\netty\netty-common\4.1.70.Final\netty-common-4.1.70.Final.jar;C:\Users\Ariel Costa\.m2\repository\io\netty\netty-buffer\4.1.70.Final\netty-buffer-4.1.70.Final.jar;C:\Users\Ariel Costa\.m2\repository\io\netty\netty-resolver\4.1.70.Final\netty-resolver-4.1.70.Final.jar;C:\Users\Ariel Costa\.m2\repository\io\netty\netty-codec-http2\4.1.70.Final\netty-codec-http2-4.1.70.Final.jar;C:\Users\Ariel Costa\.m2\repository\io\netty\netty-codec\4.1.70.Final\netty-codec-4.1.70.Final.jar;C:\Users\Ariel Costa\.m2\repository\io\netty\netty-handler\4.1.70.Final\netty-handler-4.1.70.Final.jar;C:\Users\Ariel Costa\.m2\repository\io\netty\netty-codec-http\4.1.70.Final\netty-codec-http-4.1.70.Final.jar;C:\Users\Ariel Costa\.m2\repository\io\netty\netty-codec-haproxy\4.1.70.Final\netty-codec-haproxy-4.1.70.Final.jar;C:\Users\Ariel Costa\.m2\repository\io\netty\netty-resolver-dns\4.1.70.Final\netty-resolver-dns-4.1.70.Final.jar;C:\Users\Ariel Costa\.m2\repository\io\netty\netty-codec-dns\4.1.70.Final\netty-codec-dns-4.1.70.Final.jar;C:\Users\Ariel Costa\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Ariel Costa\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Ariel Costa\.m2\repository\io\netty\netty-resolver-dns-native-macos\4.1.70.Final\netty-resolver-dns-native-macos-4.1.70.Final-osx-x86_64.jar;C:\Users\Ariel Costa\.m2\repository\io\netty\netty-resolver-dns-classes-macos\4.1.70.Final\netty-resolver-dns-classes-macos-4.1.70.Final.jar;C:\Users\Ariel Costa\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.70.Final\netty-transport-native-unix-common-4.1.70.Final-linux-x86_64.jar;C:\Users\Ariel Costa\.m2\repository\io\netty\netty-transport-native-epoll\4.1.70.Final\netty-transport-native-epoll-4.1.70.Final-linux-x86_64.jar;C:\Users\Ariel Costa\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.70.Final\netty-transport-native-unix-common-4.1.70.Final.jar;C:\Users\Ariel Costa\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.70.Final\netty-transport-classes-epoll-4.1.70.Final.jar;C:\Users\Ariel Costa\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.44.Final\netty-tcnative-boringssl-static-2.0.44.Final.jar;C:\Users\Ariel Costa\.m2\repository\io\netty\netty-handler-proxy\4.1.70.Final\netty-handler-proxy-4.1.70.Final.jar;C:\Users\Ariel Costa\.m2\repository\io\netty\netty-codec-socks\4.1.70.Final\netty-codec-socks-4.1.70.Final.jar;C:\Users\Ariel Costa\.m2\repository\com\aayushatharva\brotli4j\brotli4j\1.6.0\brotli4j-1.6.0.jar;C:\Users\Ariel Costa\.m2\repository\com\aayushatharva\brotli4j\native-windows-x86_64\1.6.0\native-windows-x86_64-1.6.0.jar;C:\Users\Ariel Costa\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Ariel Costa\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Ariel Costa\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Ariel Costa\.m2\repository\ch\qos\logback\logback-classic\1.2.9\logback-classic-1.2.9.jar;C:\Users\Ariel Costa\.m2\repository\ch\qos\logback\logback-core\1.2.9\logback-core-1.2.9.jar;C:\Users\Ariel Costa\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.32\jcl-over-slf4j-1.7.32.jar;C:\Users\Ariel Costa\.m2\repository\org\antlr\antlr4-runtime\4.9.2\antlr4-runtime-4.9.2.jar;C:\Users\Ariel Costa\.m2\repository\com\jayway\jsonpath\json-path\2.7.0\json-path-2.7.0.jar;C:\Users\Ariel Costa\.m2\repository\net\minidev\json-smart\2.4.7\json-smart-2.4.7.jar;C:\Users\Ariel Costa\.m2\repository\net\minidev\accessors-smart\2.4.7\accessors-smart-2.4.7.jar;C:\Users\Ariel Costa\.m2\repository\org\ow2\asm\asm\9.1\asm-9.1.jar;C:\Users\Ariel Costa\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\Ariel Costa\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\Ariel Costa\.m2\repository\org\yaml\snakeyaml\1.29\snakeyaml-1.29.jar;C:\Users\Ariel Costa\.m2\repository\de\siegmar\fastcsv\2.0.0\fastcsv-2.0.0.jar;C:\Users\Ariel Costa\.m2\repository\info\picocli\picocli\4.6.1\picocli-4.6.1.jar;C:\Users\Ariel Costa\.m2\repository\io\github\classgraph\classgraph\4.8.108\classgraph-4.8.108.jar;C:\Users\Ariel Costa\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.2\junit-jupiter-api-5.7.2.jar;C:\Users\Ariel Costa\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Ariel Costa\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Ariel Costa\.m2\repository\org\junit\platform\junit-platform-commons\1.7.2\junit-platform-commons-1.7.2.jar;C:\Users\Ariel Costa\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.2\junit-jupiter-engine-5.7.2.jar;C:\Users\Ariel Costa\.m2\repository\org\junit\platform\junit-platform-engine\1.7.2\junit-platform-engine-1.7.2.jar;C:\Users\Ariel Costa\.m2\repository\org\json\json\20220320\json-20220320.jar;C:\Users\Ariel Costa\.m2\repository\net\masterthought\cucumber-reporting\5.3.1\cucumber-reporting-5.3.1.jar;C:\Users\Ariel Costa\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.1\jackson-databind-2.10.1.jar;C:\Users\Ariel Costa\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.1\jackson-annotations-2.10.1.jar;C:\Users\Ariel Costa\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.1\jackson-core-2.10.1.jar;C:\Users\Ariel Costa\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.10.1\jackson-datatype-jsr310-2.10.1.jar;C:\Users\Ariel Costa\.m2\repository\org\apache\velocity\velocity-engine-core\2.1\velocity-engine-core-2.1.jar;C:\Users\Ariel Costa\.m2\repository\org\slf4j\slf4j-api\1.7.26\slf4j-api-1.7.26.jar;C:\Users\Ariel Costa\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\Ariel Costa\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\Ariel Costa\.m2\repository\org\apache\commons\commons-lang3\3.9\commons-lang3-3.9.jar;C:\Users\Ariel Costa\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Ariel Costa\.m2\repository\org\codehaus\plexus\plexus-utils\3.3.0\plexus-utils-3.3.0.jar;C:\Users\Ariel Costa\.m2\repository\org\jsoup\jsoup\1.12.1\jsoup-1.12.1.jar;C:\Users\Ariel Costa\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20191001.1\owasp-java-html-sanitizer-20191001.1.jar;C:\Users\Ariel Costa\.m2\repository\com\google\guava\guava\27.1-jre\guava-27.1-jre.jar;C:\Users\Ariel Costa\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Ariel Costa\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Ariel Costa\.m2\repository\org\checkerframework\checker-qual\2.5.2\checker-qual-2.5.2.jar;C:\Users\Ariel Costa\.m2\repository\com\google\errorprone\error_prone_annotations\2.2.0\error_prone_annotations-2.2.0.jar;C:\Users\Ariel Costa\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Ariel Costa\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.17\animal-sniffer-annotations-1.17.jar;C:\Users\Ariel Costa\.m2\repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar;C:\Users\Ariel Costa\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\Ariel Costa\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Buenos_Aires"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_261\bin"/>
+    <property name="sun.java.command" value="C:\Users\ARIELC~1\AppData\Local\Temp\surefire3841813037551895271\surefirebooter4811718395511683590.jar C:\Users\Ariel Costa\AppData\Local\Temp\surefire3841813037551895271 2022-07-11T17-12-31_252-jvmRun1 surefire3138899310766689980tmp surefire_06162631595130225941tmp"/>
+    <property name="test" value="TestRunner"/>
+    <property name="surefire.test.class.path" value="C:\Users\Ariel Costa\Documents\Repos\APICHALLENGE\target\test-classes;C:\Users\Ariel Costa\Documents\Repos\APICHALLENGE\target\classes;C:\Users\Ariel Costa\.m2\repository\com\intuit\karate\karate-junit5\1.2.0\karate-junit5-1.2.0.jar;C:\Users\Ariel Costa\.m2\repository\com\intuit\karate\karate-core\1.2.0\karate-core-1.2.0.jar;C:\Users\Ariel Costa\.m2\repository\org\graalvm\js\js-scriptengine\21.2.0\js-scriptengine-21.2.0.jar;C:\Users\Ariel Costa\.m2\repository\org\graalvm\sdk\graal-sdk\21.2.0\graal-sdk-21.2.0.jar;C:\Users\Ariel Costa\.m2\repository\org\graalvm\js\js\21.2.0\js-21.2.0.jar;C:\Users\Ariel Costa\.m2\repository\org\graalvm\regex\regex\21.2.0\regex-21.2.0.jar;C:\Users\Ariel Costa\.m2\repository\org\graalvm\truffle\truffle-api\21.2.0\truffle-api-21.2.0.jar;C:\Users\Ariel Costa\.m2\repository\com\ibm\icu\icu4j\69.1\icu4j-69.1.jar;C:\Users\Ariel Costa\.m2\repository\org\thymeleaf\thymeleaf\3.0.14.RELEASE\thymeleaf-3.0.14.RELEASE.jar;C:\Users\Ariel Costa\.m2\repository\ognl\ognl\3.1.26\ognl-3.1.26.jar;C:\Users\Ariel Costa\.m2\repository\org\javassist\javassist\3.20.0-GA\javassist-3.20.0-GA.jar;C:\Users\Ariel Costa\.m2\repository\org\attoparser\attoparser\2.0.5.RELEASE\attoparser-2.0.5.RELEASE.jar;C:\Users\Ariel Costa\.m2\repository\org\unbescape\unbescape\1.1.6.RELEASE\unbescape-1.1.6.RELEASE.jar;C:\Users\Ariel Costa\.m2\repository\com\linecorp\armeria\armeria\1.13.4\armeria-1.13.4.jar;C:\Users\Ariel Costa\.m2\repository\io\micrometer\micrometer-core\1.7.6\micrometer-core-1.7.6.jar;C:\Users\Ariel Costa\.m2\repository\org\hdrhistogram\HdrHistogram\2.1.12\HdrHistogram-2.1.12.jar;C:\Users\Ariel Costa\.m2\repository\org\latencyutils\LatencyUtils\2.0.3\LatencyUtils-2.0.3.jar;C:\Users\Ariel Costa\.m2\repository\io\netty\netty-transport\4.1.70.Final\netty-transport-4.1.70.Final.jar;C:\Users\Ariel Costa\.m2\repository\io\netty\netty-common\4.1.70.Final\netty-common-4.1.70.Final.jar;C:\Users\Ariel Costa\.m2\repository\io\netty\netty-buffer\4.1.70.Final\netty-buffer-4.1.70.Final.jar;C:\Users\Ariel Costa\.m2\repository\io\netty\netty-resolver\4.1.70.Final\netty-resolver-4.1.70.Final.jar;C:\Users\Ariel Costa\.m2\repository\io\netty\netty-codec-http2\4.1.70.Final\netty-codec-http2-4.1.70.Final.jar;C:\Users\Ariel Costa\.m2\repository\io\netty\netty-codec\4.1.70.Final\netty-codec-4.1.70.Final.jar;C:\Users\Ariel Costa\.m2\repository\io\netty\netty-handler\4.1.70.Final\netty-handler-4.1.70.Final.jar;C:\Users\Ariel Costa\.m2\repository\io\netty\netty-codec-http\4.1.70.Final\netty-codec-http-4.1.70.Final.jar;C:\Users\Ariel Costa\.m2\repository\io\netty\netty-codec-haproxy\4.1.70.Final\netty-codec-haproxy-4.1.70.Final.jar;C:\Users\Ariel Costa\.m2\repository\io\netty\netty-resolver-dns\4.1.70.Final\netty-resolver-dns-4.1.70.Final.jar;C:\Users\Ariel Costa\.m2\repository\io\netty\netty-codec-dns\4.1.70.Final\netty-codec-dns-4.1.70.Final.jar;C:\Users\Ariel Costa\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Ariel Costa\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Ariel Costa\.m2\repository\io\netty\netty-resolver-dns-native-macos\4.1.70.Final\netty-resolver-dns-native-macos-4.1.70.Final-osx-x86_64.jar;C:\Users\Ariel Costa\.m2\repository\io\netty\netty-resolver-dns-classes-macos\4.1.70.Final\netty-resolver-dns-classes-macos-4.1.70.Final.jar;C:\Users\Ariel Costa\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.70.Final\netty-transport-native-unix-common-4.1.70.Final-linux-x86_64.jar;C:\Users\Ariel Costa\.m2\repository\io\netty\netty-transport-native-epoll\4.1.70.Final\netty-transport-native-epoll-4.1.70.Final-linux-x86_64.jar;C:\Users\Ariel Costa\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.70.Final\netty-transport-native-unix-common-4.1.70.Final.jar;C:\Users\Ariel Costa\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.70.Final\netty-transport-classes-epoll-4.1.70.Final.jar;C:\Users\Ariel Costa\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.44.Final\netty-tcnative-boringssl-static-2.0.44.Final.jar;C:\Users\Ariel Costa\.m2\repository\io\netty\netty-handler-proxy\4.1.70.Final\netty-handler-proxy-4.1.70.Final.jar;C:\Users\Ariel Costa\.m2\repository\io\netty\netty-codec-socks\4.1.70.Final\netty-codec-socks-4.1.70.Final.jar;C:\Users\Ariel Costa\.m2\repository\com\aayushatharva\brotli4j\brotli4j\1.6.0\brotli4j-1.6.0.jar;C:\Users\Ariel Costa\.m2\repository\com\aayushatharva\brotli4j\native-windows-x86_64\1.6.0\native-windows-x86_64-1.6.0.jar;C:\Users\Ariel Costa\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Ariel Costa\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Ariel Costa\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Ariel Costa\.m2\repository\ch\qos\logback\logback-classic\1.2.9\logback-classic-1.2.9.jar;C:\Users\Ariel Costa\.m2\repository\ch\qos\logback\logback-core\1.2.9\logback-core-1.2.9.jar;C:\Users\Ariel Costa\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.32\jcl-over-slf4j-1.7.32.jar;C:\Users\Ariel Costa\.m2\repository\org\antlr\antlr4-runtime\4.9.2\antlr4-runtime-4.9.2.jar;C:\Users\Ariel Costa\.m2\repository\com\jayway\jsonpath\json-path\2.7.0\json-path-2.7.0.jar;C:\Users\Ariel Costa\.m2\repository\net\minidev\json-smart\2.4.7\json-smart-2.4.7.jar;C:\Users\Ariel Costa\.m2\repository\net\minidev\accessors-smart\2.4.7\accessors-smart-2.4.7.jar;C:\Users\Ariel Costa\.m2\repository\org\ow2\asm\asm\9.1\asm-9.1.jar;C:\Users\Ariel Costa\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\Ariel Costa\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\Ariel Costa\.m2\repository\org\yaml\snakeyaml\1.29\snakeyaml-1.29.jar;C:\Users\Ariel Costa\.m2\repository\de\siegmar\fastcsv\2.0.0\fastcsv-2.0.0.jar;C:\Users\Ariel Costa\.m2\repository\info\picocli\picocli\4.6.1\picocli-4.6.1.jar;C:\Users\Ariel Costa\.m2\repository\io\github\classgraph\classgraph\4.8.108\classgraph-4.8.108.jar;C:\Users\Ariel Costa\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.2\junit-jupiter-api-5.7.2.jar;C:\Users\Ariel Costa\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Ariel Costa\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Ariel Costa\.m2\repository\org\junit\platform\junit-platform-commons\1.7.2\junit-platform-commons-1.7.2.jar;C:\Users\Ariel Costa\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.2\junit-jupiter-engine-5.7.2.jar;C:\Users\Ariel Costa\.m2\repository\org\junit\platform\junit-platform-engine\1.7.2\junit-platform-engine-1.7.2.jar;C:\Users\Ariel Costa\.m2\repository\org\json\json\20220320\json-20220320.jar;C:\Users\Ariel Costa\.m2\repository\net\masterthought\cucumber-reporting\5.3.1\cucumber-reporting-5.3.1.jar;C:\Users\Ariel Costa\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.1\jackson-databind-2.10.1.jar;C:\Users\Ariel Costa\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.1\jackson-annotations-2.10.1.jar;C:\Users\Ariel Costa\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.1\jackson-core-2.10.1.jar;C:\Users\Ariel Costa\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.10.1\jackson-datatype-jsr310-2.10.1.jar;C:\Users\Ariel Costa\.m2\repository\org\apache\velocity\velocity-engine-core\2.1\velocity-engine-core-2.1.jar;C:\Users\Ariel Costa\.m2\repository\org\slf4j\slf4j-api\1.7.26\slf4j-api-1.7.26.jar;C:\Users\Ariel Costa\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\Ariel Costa\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\Ariel Costa\.m2\repository\org\apache\commons\commons-lang3\3.9\commons-lang3-3.9.jar;C:\Users\Ariel Costa\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Ariel Costa\.m2\repository\org\codehaus\plexus\plexus-utils\3.3.0\plexus-utils-3.3.0.jar;C:\Users\Ariel Costa\.m2\repository\org\jsoup\jsoup\1.12.1\jsoup-1.12.1.jar;C:\Users\Ariel Costa\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20191001.1\owasp-java-html-sanitizer-20191001.1.jar;C:\Users\Ariel Costa\.m2\repository\com\google\guava\guava\27.1-jre\guava-27.1-jre.jar;C:\Users\Ariel Costa\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Ariel Costa\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Ariel Costa\.m2\repository\org\checkerframework\checker-qual\2.5.2\checker-qual-2.5.2.jar;C:\Users\Ariel Costa\.m2\repository\com\google\errorprone\error_prone_annotations\2.2.0\error_prone_annotations-2.2.0.jar;C:\Users\Ariel Costa\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Ariel Costa\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.17\animal-sniffer-annotations-1.17.jar;C:\Users\Ariel Costa\.m2\repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar;C:\Users\Ariel Costa\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\Ariel Costa\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Ariel Costa"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_261"/>
+    <property name="basedir" value="C:\Users\Ariel Costa\Documents\Repos\APICHALLENGE"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\ARIELC~1\AppData\Local\Temp\surefire3841813037551895271\surefirebooter4811718395511683590.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_261\lib\resources.jar;C:\Program Files\Java\jre1.8.0_261\lib\rt.jar;C:\Program Files\Java\jre1.8.0_261\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_261\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_261\lib\jce.jar;C:\Program Files\Java\jre1.8.0_261\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_261\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_261\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_261-b12"/>
+    <property name="user.name" value="Ariel Costa"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_261\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Ariel Costa\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ARIELC~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_261"/>
+    <property name="user.dir" value="C:\Users\Ariel Costa\Documents\Repos\APICHALLENGE"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_261\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python38\Scripts\;C:\Python38\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Amazon\AWSCLI\bin\;C:\program files\apache-maven-3.6.3\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\Ariel Costa\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3.3\bin;C:\Users\Ariel Costa\AppData\Local\Programs\Fiddler;C:\Users\Ariel Costa\AppData\Roaming\npm;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.261-b12"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_261\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="challengeTest[1][1]" classname="challenge.tests.TestRunner" time="5.948"/>
+  <testcase name="challengeTest[1][2]" classname="challenge.tests.TestRunner" time="4.329"/>
+  <testcase name="challengeTest[1][3]" classname="challenge.tests.TestRunner" time="4.82">
+    <failure message="did not evaluate to &apos;true&apos;: ids1.length &gt; 10 * ids2.length&#10;classpath:challenge/tests/challengeTests.feature:36" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: 
+did not evaluate to 'true': ids1.length > 10 * ids2.length
+classpath:challenge/tests/challengeTests.feature:36
+</failure>
+    <system-out><![CDATA[17:12:44.261 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:12:44.266 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.nasa.gov/mars-photos/api/v1/rovers/Curiosity/photos?sol=1000&api_key=3URwAWOHjeJxgDD6Dt94WfSXs3chWqfNHBb9aBp4&camera=NAVCAM
+1 > Host: api.nasa.gov
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_261)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:12:45.677 [main] DEBUG com.intuit.karate - response time in milliseconds: 1411
+1 < 200
+1 < Date: Mon, 11 Jul 2022 20:12:45 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Age: 1
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < Etag: W/"0668dd3c21f35a1846ab39d3569bb583"
+1 < Referrer-Policy: strict-origin-when-cross-origin
+1 < Strict-Transport-Security: max-age=63072000; includeSubDomains
+1 < Strict-Transport-Security: max-age=31536000; preload
+1 < Vary: Accept-Encoding
+1 < Vary: Origin
+1 < Via: 1.1 vegur, http/1.1 api-umbrella (ApacheTrafficServer [cMsSf ])
+1 < X-Cache: MISS
+1 < X-Content-Type-Options: nosniff
+1 < X-Download-Options: noopen
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 952
+1 < X-Request-Id: da6737c8-daa9-40e8-b166-cc1a0e7e8ddd
+1 < X-Runtime: 0.017492
+1 < X-Vcap-Request-Id: a1ba53a1-6b2f-44b9-4b2c-04ff13659069
+1 < X-Xss-Protection: 1; mode=block
+1 < X-Frame-Options: SAMEORIGIN
+{"photos":[{"id":103383,"sol":1000,"camera":{"id":26,"name":"NAVCAM","rover_id":5,"full_name":"Navigation Camera"},"img_src":"http://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01000/opgs/edr/ncam/NLB_486272784EDR_F0481570NCAM00415M_.JPG","earth_date":"2015-05-30","rover":{"id":5,"name":"Curiosity","landing_date":"2012-08-06","launch_date":"2011-11-26","status":"active"}},{"id":103384,"sol":1000,"camera":{"id":26,"name":"NAVCAM","rover_id":5,"full_name":"Navigation Camera"},"img_src":"http://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01000/opgs/edr/ncam/NLB_486271176EDR_F0481570NCAM00322M_.JPG","earth_date":"2015-05-30","rover":{"id":5,"name":"Curiosity","landing_date":"2012-08-06","launch_date":"2011-11-26","status":"active"}},{"id":103385,"sol":1000,"camera":{"id":26,"name":"NAVCAM","rover_id":5,"full_name":"Navigation Camera"},"img_src":"http://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01000/opgs/edr/ncam/NLB_486270860EDR_F0481570NCAM00323M_.JPG","earth_date":"2015-05-30","rover":{"id":5,"name":"Curiosity","landing_date":"2012-08-06","launch_date":"2011-11-26","status":"active"}},{"id":103386,"sol":1000,"camera":{"id":26,"name":"NAVCAM","rover_id":5,"full_name":"Navigation Camera"},"img_src":"http://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01000/opgs/edr/ncam/NLB_486265192EDR_S0481570NCAM00546M_.JPG","earth_date":"2015-05-30","rover":{"id":5,"name":"Curiosity","landing_date":"2012-08-06","launch_date":"2011-11-26","status":"active"}},{"id":103387,"sol":1000,"camera":{"id":26,"name":"NAVCAM","rover_id":5,"full_name":"Navigation Camera"},"img_src":"http://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01000/opgs/edr/ncam/NLB_486265119EDR_S0481570NCAM00546M_.JPG","earth_date":"2015-05-30","rover":{"id":5,"name":"Curiosity","landing_date":"2012-08-06","launch_date":"2011-11-26","status":"active"}},{"id":103388,"sol":1000,"camera":{"id":26,"name":"NAVCAM","rover_id":5,"full_name":"Navigation Camera"},"img_src":"http://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01000/opgs/edr/ncam/NLB_486265046EDR_S0481570NCAM00546M_.JPG","earth_date":"2015-05-30","rover":{"id":5,"name":"Curiosity","landing_date":"2012-08-06","launch_date":"2011-11-26","status":"active"}},{"id":103389,"sol":1000,"camera":{"id":26,"name":"NAVCAM","rover_id":5,"full_name":"Navigation Camera"},"img_src":"http://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01000/opgs/edr/ncam/NLB_486264973EDR_S0481570NCAM00546M_.JPG","earth_date":"2015-05-30","rover":{"id":5,"name":"Curiosity","landing_date":"2012-08-06","launch_date":"2011-11-26","status":"active"}},{"id":409063,"sol":1000,"camera":{"id":26,"name":"NAVCAM","rover_id":5,"full_name":"Navigation Camera"},"img_src":"http://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01000/opgs/edr/ncam/NRB_486272784EDR_F0481570NCAM00415M_.JPG","earth_date":"2015-05-30","rover":{"id":5,"name":"Curiosity","landing_date":"2012-08-06","launch_date":"2011-11-26","status":"active"}},{"id":409064,"sol":1000,"camera":{"id":26,"name":"NAVCAM","rover_id":5,"full_name":"Navigation Camera"},"img_src":"http://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01000/opgs/edr/ncam/NRB_486271176EDR_F0481570NCAM00322M_.JPG","earth_date":"2015-05-30","rover":{"id":5,"name":"Curiosity","landing_date":"2012-08-06","launch_date":"2011-11-26","status":"active"}},{"id":409065,"sol":1000,"camera":{"id":26,"name":"NAVCAM","rover_id":5,"full_name":"Navigation Camera"},"img_src":"http://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01000/opgs/edr/ncam/NRB_486270860EDR_F0481570NCAM00323M_.JPG","earth_date":"2015-05-30","rover":{"id":5,"name":"Curiosity","landing_date":"2012-08-06","launch_date":"2011-11-26","status":"active"}}]}
+
+17:12:45.681 [main] INFO  com.intuit.karate - [print] Endpoint hit! 
+17:12:45.683 [main] INFO  com.intuit.karate - [print] amount of items:10 
+17:12:45.685 [main] DEBUG com.intuit.karate - request:
+2 > GET https://api.nasa.gov/mars-photos/api/v1/rovers/Opportunity/photos?sol=1000&api_key=3URwAWOHjeJxgDD6Dt94WfSXs3chWqfNHBb9aBp4&camera=NAVCAM
+2 > Host: api.nasa.gov
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_261)
+2 > Accept-Encoding: gzip,deflate
+
+
+17:12:47.605 [main] DEBUG com.intuit.karate - response time in milliseconds: 1919
+2 < 200
+2 < Date: Mon, 11 Jul 2022 20:12:47 GMT
+2 < Content-Type: application/json; charset=utf-8
+2 < Transfer-Encoding: chunked
+2 < Connection: keep-alive
+2 < Access-Control-Allow-Origin: *
+2 < Age: 1
+2 < Cache-Control: max-age=0, private, must-revalidate
+2 < Etag: W/"39767efec3c6c2c8495762873e68565f"
+2 < Referrer-Policy: strict-origin-when-cross-origin
+2 < Strict-Transport-Security: max-age=63072000; includeSubDomains
+2 < Strict-Transport-Security: max-age=31536000; preload
+2 < Vary: Accept-Encoding
+2 < Vary: Origin
+2 < Via: 1.1 vegur, http/1.1 api-umbrella (ApacheTrafficServer [cMsSf ])
+2 < X-Cache: MISS
+2 < X-Content-Type-Options: nosniff
+2 < X-Download-Options: noopen
+2 < X-Permitted-Cross-Domain-Policies: none
+2 < X-Ratelimit-Limit: 1000
+2 < X-Ratelimit-Remaining: 951
+2 < X-Request-Id: ca0b04b6-da3b-47ef-9ea4-2f7cd26ad17f
+2 < X-Runtime: 0.011892
+2 < X-Vcap-Request-Id: 5ced9c5f-7179-4df8-6e65-da009d192a3b
+2 < X-Xss-Protection: 1; mode=block
+2 < X-Frame-Options: SAMEORIGIN
+{"photos":[{"id":141044,"sol":1000,"camera":{"id":16,"name":"NAVCAM","rover_id":6,"full_name":"Navigation Camera"},"img_src":"http://mars.nasa.gov/mer/gallery/all/1/n/1000/1N216958451EFF76ZFP1950L0M1-BR.JPG","earth_date":"2006-11-17","rover":{"id":6,"name":"Opportunity","landing_date":"2004-01-25","launch_date":"2003-07-07","status":"complete"}},{"id":141045,"sol":1000,"camera":{"id":16,"name":"NAVCAM","rover_id":6,"full_name":"Navigation Camera"},"img_src":"http://mars.nasa.gov/mer/gallery/all/1/n/1000/1N216958451EFF76ZFP1950R0M1-BR.JPG","earth_date":"2006-11-17","rover":{"id":6,"name":"Opportunity","landing_date":"2004-01-25","launch_date":"2003-07-07","status":"complete"}}]}
+
+17:12:47.607 [main] INFO  com.intuit.karate - [print] Endpoint hit! 
+17:12:47.609 [main] INFO  com.intuit.karate - [print] amount of items:2 
+17:12:47.611 [main] DEBUG com.intuit.karate - request:
+3 > GET https://api.nasa.gov/mars-photos/api/v1/rovers/Spirit/photos?sol=1000&api_key=3URwAWOHjeJxgDD6Dt94WfSXs3chWqfNHBb9aBp4&camera=NAVCAM
+3 > Host: api.nasa.gov
+3 > Connection: Keep-Alive
+3 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_261)
+3 > Accept-Encoding: gzip,deflate
+
+
+17:12:48.995 [main] DEBUG com.intuit.karate - response time in milliseconds: 1384
+3 < 200
+3 < Date: Mon, 11 Jul 2022 20:12:49 GMT
+3 < Content-Type: application/json; charset=utf-8
+3 < Transfer-Encoding: chunked
+3 < Connection: keep-alive
+3 < Access-Control-Allow-Origin: *
+3 < Age: 2
+3 < Cache-Control: max-age=0, private, must-revalidate
+3 < Etag: W/"a18881a9d9eb6fc8120cee3ab7fb47db"
+3 < Referrer-Policy: strict-origin-when-cross-origin
+3 < Strict-Transport-Security: max-age=63072000; includeSubDomains
+3 < Strict-Transport-Security: max-age=31536000; preload
+3 < Vary: Accept-Encoding
+3 < Vary: Origin
+3 < Via: 1.1 vegur, http/1.1 api-umbrella (ApacheTrafficServer [cMsSf ])
+3 < X-Cache: MISS
+3 < X-Content-Type-Options: nosniff
+3 < X-Download-Options: noopen
+3 < X-Permitted-Cross-Domain-Policies: none
+3 < X-Ratelimit-Limit: 1000
+3 < X-Ratelimit-Remaining: 951
+3 < X-Request-Id: 242c9e77-73ce-4be0-a027-d459bc996ef8
+3 < X-Runtime: 0.012431
+3 < X-Vcap-Request-Id: f1e45585-56fe-4c18-7972-54441b09ffd3
+3 < X-Xss-Protection: 1; mode=block
+3 < X-Frame-Options: SAMEORIGIN
+{"photos":[{"id":301536,"sol":1000,"camera":{"id":29,"name":"NAVCAM","rover_id":7,"full_name":"Navigation Camera"},"img_src":"http://mars.nasa.gov/mer/gallery/all/2/n/1000/2N215136972EDNAS00P1585L0M1-BR.JPG","earth_date":"2006-10-27","rover":{"id":7,"name":"Spirit","landing_date":"2004-01-04","launch_date":"2003-06-10","status":"complete"}},{"id":301537,"sol":1000,"camera":{"id":29,"name":"NAVCAM","rover_id":7,"full_name":"Navigation Camera"},"img_src":"http://mars.nasa.gov/mer/gallery/all/2/n/1000/2N215137010EDNAS00P1585L0M1-BR.JPG","earth_date":"2006-10-27","rover":{"id":7,"name":"Spirit","landing_date":"2004-01-04","launch_date":"2003-06-10","status":"complete"}},{"id":301538,"sol":1000,"camera":{"id":29,"name":"NAVCAM","rover_id":7,"full_name":"Navigation Camera"},"img_src":"http://mars.nasa.gov/mer/gallery/all/2/n/1000/2N215137048EDNAS00P1585L0M1-BR.JPG","earth_date":"2006-10-27","rover":{"id":7,"name":"Spirit","landing_date":"2004-01-04","launch_date":"2003-06-10","status":"complete"}},{"id":301539,"sol":1000,"camera":{"id":29,"name":"NAVCAM","rover_id":7,"full_name":"Navigation Camera"},"img_src":"http://mars.nasa.gov/mer/gallery/all/2/n/1000/2N215137086EDNAS00P1585L0M1-BR.JPG","earth_date":"2006-10-27","rover":{"id":7,"name":"Spirit","landing_date":"2004-01-04","launch_date":"2003-06-10","status":"complete"}}]}
+
+17:12:48.996 [main] INFO  com.intuit.karate - [print] Endpoint hit! 
+17:12:48.997 [main] INFO  com.intuit.karate - [print] amount of items:4 
+17:12:48.998 [main] ERROR com.intuit.karate - classpath:challenge/tests/challengeTests.feature:36
+* assert ids1.length > 10 * ids2.length
+did not evaluate to 'true': ids1.length > 10 * ids2.length
+classpath:challenge/tests/challengeTests.feature:36
+]]></system-out>
+  </testcase>
+  <testcase name="challengeTest[1][4]" classname="challenge.tests.TestRunner" time="2.02"/>
+  <testcase name="challengeTest[1][5]" classname="challenge.tests.TestRunner" time="1.463"/>
+  <testcase name="challengeTest[1][6]" classname="challenge.tests.TestRunner" time="36.178"/>
+</testsuite>
